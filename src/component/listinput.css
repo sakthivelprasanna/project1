@@ -1,0 +1,42 @@
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-item:last-child {
+    border-bottom: none;
+  }
+  
+  .list-item button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .list-item button:first-of-type {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .list-item button:first-of-type:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+  }
+  
+  .list-item button:last-of-type {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  .list-item button:last-of-type:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px);
+  }
+  
